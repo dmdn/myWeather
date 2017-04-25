@@ -25,4 +25,4 @@
 ![screenshot settings](https://cloud.githubusercontent.com/assets/19373990/25389456/5c3b6ab2-29d9-11e7-9617-6b831d5d2329.png)
 ![screenshot](https://cloud.githubusercontent.com/assets/19373990/25392805/5813c4f8-29e2-11e7-9554-4ee8485c3a53.png)
 
-Скачать приложение: [download](https://drive.google.com/file/d/0B_FuLrEepxSsSUEySWk1RmtpaUk/view?usp=sharing)
+**Скачать приложение**: [download](https://drive.google.com/file/d/0B_FuLrEepxSsSUEySWk1RmtpaUk/view?usp=sharing)
