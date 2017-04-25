@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CurrentWeatherFragment">
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCurrentCity"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_below="@+id/tvCurrentCity"
+        android:id="@+id/tvCurrentDate" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/ivCurrentIcon"
+        android:id="@+id/tvCurrentDescription" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/tvCurrentDescription"
+        android:id="@+id/tvCurrentTemp" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/tvCurrentTemp"
+        android:id="@+id/tvCurrentWind" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/tvCurrentWind"
+        android:id="@+id/tvCurrentHumidity" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/tvCurrentHumidity"
+        android:id="@+id/tvCurrentPressure" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvCurrentPressure"
+        android:id="@+id/tvCurrentLastUpdate" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/no_image"
+        android:id="@+id/ivCurrentIcon"
+        android:layout_below="@+id/tvCurrentDate"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_above="@+id/tvCurrentHumidity"
+        android:layout_toEndOf="@+id/tvCurrentWind"
+        android:id="@+id/icon_wind" />
+
+    <TextView
+        android:text="@string/no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvProvider" />
+
+
+
+</RelativeLayout>

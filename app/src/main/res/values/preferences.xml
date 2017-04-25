@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_geolocation_enabled">geolocation_enabled</string>
+    <string name="pref_manual_location">manual_location</string>
+    <string name="pref_cached_location">cached_location</string>
+
+    <string name="pref_unit_format">unit_format</string>
+
+    <string name="pref_needs_setup">needs_setup</string>
+
+    <string name="pref_default_unit">metric</string>
+
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_enable_geolocation">Enable GeoLocation</string>
+    <string name="pref_description_enable_geolocation">Automatically obtain weather information based on my current location</string>
+
+    <string name="pref_title_manual_location">Manual Location</string>
+    <string name="pref_default_location">Minsk, BY</string>
+
+    <string name="pref_title_units_format">Units format</string>
+
+    <string-array name="pref_unit_format_titles">
+        <item>Metric (&#176;C, m/s)</item>
+        <item>Standart (&#176;K, m/s)</item>
+        <item>Imperial (&#176;F, ml/hr)</item>
+    </string-array>
+
+    <string-array name="pref_unit_format_values">
+        <item>metric</item>
+        <item>standart</item>
+        <item>imperial</item>
+    </string-array>
+
+
+    <string name="pref_number_days">pref_number_days</string>
+    <string name="pref_title_number_days">Weather forecast ...</string>
+    <string name="pref_default_number_days">3</string>
+
+    <string-array name="pref_number_days_titles">
+        <item>for 1 day</item>
+        <item>for 2 days</item>
+        <item>for 3 days</item>
+        <item>for 4 days</item>
+        <item>for 5 days</item>
+        <item>for 6 days</item>
+        <item>for 7 days</item>
+    </string-array>
+
+    <string-array name="pref_number_days_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+
+
+
+    <string name="pref_json_widget">pref_json_widget</string>
+    <string name="json_preferences">json_preferences</string>
+    <string name="pref_json_daily">pref_json_daily</string>
+    <string name="pref_json_update">pref_json_update</string>
+
+</resources>

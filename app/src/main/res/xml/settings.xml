@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@+id/geolocation_enabled"
+        android:defaultValue="true"
+        android:title="@string/pref_title_enable_geolocation"
+        android:summary="@string/pref_description_enable_geolocation"
+        android:key="@string/pref_geolocation_enabled" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:defaultValue="@string/pref_default_location"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_manual_location"
+        android:key="@string/pref_manual_location" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_default_unit"
+        android:title="@string/pref_title_units_format"
+        android:entries="@array/pref_unit_format_titles"
+        android:entryValues="@array/pref_unit_format_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:key="@string/pref_unit_format" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_default_number_days"
+        android:title="@string/pref_title_number_days"
+        android:entries="@array/pref_number_days_titles"
+        android:entryValues="@array/pref_number_days_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:key="@string/pref_number_days" />
+
+
+</PreferenceScreen>
