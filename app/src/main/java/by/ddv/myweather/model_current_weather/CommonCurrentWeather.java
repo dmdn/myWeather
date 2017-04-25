@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 
 public class CommonCurrentWeather {
@@ -32,7 +33,7 @@ public class CommonCurrentWeather {
     }
 
     public static String unixTimeStampToDateTime(double unixTimeStamp){
-        DateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy HH:mm");
+        DateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy HH:mm", Locale.ENGLISH);
         Date date = new Date();
         date.setTime((long)unixTimeStamp*1000);
         return dateFormat.format(date);
@@ -43,7 +44,7 @@ public class CommonCurrentWeather {
     }
 
     public static String getDateNow(){
-        DateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy");
+        DateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy", Locale.ENGLISH);
         Date date = new Date();
         return dateFormat.format(date);
     }
