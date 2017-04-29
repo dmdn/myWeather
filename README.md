@@ -1,22 +1,20 @@
-# Приложение по погоде на Android
+# Project Description
+The project is made as an educational one. The application get the JSON data it provides  [OpenWeatherMap.org]( http://openweathermap.org).
 
-## Описание проекта
-Проект выполнен как учебный. Приложение получает данные JSON, которые предоставляет  [OpenWeatherMap.org]( http://openweathermap.org).
+App language: English.
 
-Язык приложения: английский.
+The app displays the current weather and weather forecast by day. In the settings of the app there is a possibility to choose the weather forecast for 1 and up to 7 days. It is also possible to choose a forecast for geolocation and setting a specific city.
 
-Приложение отображает текущую погоду и прогноз погоды по дням. В настройках приложения есть возможность выбора прогноза погоды на 1 и до 7 дней. Так же возможно выбрать прогноз по геолокации и задавая конкретный город.
+It is possible to install the application widget.
 
-Есть возможность установить виджет приложения.
-
-### Основные навыки которые использовались в проекте
-+ создание слайдера
-+ создание меню приложения
-+ создание виджета
-+ работа с JSON
-+ работа с фрагментами
-+ работа с геолокацией
-+ использовались библиотеки:
+### Basic skills that were used in the project
++ Creating tabs
++ Create an application menu
++ Widget creation
++ Work with JSON
++ Work with fragments
++ Work with geolocation
++ Libraries were used:
   + [Picasso]( https://github.com/square/picasso)
   + [GSON]( https://github.com/google/gson)
 
@@ -25,4 +23,4 @@
 ![screenshot settings](https://cloud.githubusercontent.com/assets/19373990/25389456/5c3b6ab2-29d9-11e7-9617-6b831d5d2329.png)
 ![screenshot](https://cloud.githubusercontent.com/assets/19373990/25392805/5813c4f8-29e2-11e7-9554-4ee8485c3a53.png)
 
-**Скачать приложение**: [download](https://drive.google.com/file/d/0B_FuLrEepxSsSUEySWk1RmtpaUk/view?usp=sharing)
+**Download app**: [download](https://drive.google.com/file/d/0B_FuLrEepxSsSUEySWk1RmtpaUk/view?usp=sharing)
