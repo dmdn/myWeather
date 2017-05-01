@@ -29,4 +29,4 @@ It is possible to install the application widget.
 ![ic_launcher](https://cloud.githubusercontent.com/assets/19373990/25581596/6e71f0e0-2e91-11e7-85c6-f0280d89470d.png)
 [Download APP in APK](https://drive.google.com/file/d/0B_FuLrEepxSsSUEySWk1RmtpaUk/view?usp=sharing)
 
-[Screenshots MyWeather APP in PDF](https://drive.google.com/file/d/0B_FuLrEepxSsNDV6WEphbEY5RGs/view?usp=sharing)
+[Screenshots MyWeather APP in PDF](https://drive.google.com/file/d/0B_FuLrEepxSsWVBBMldQR1kwNEk/view?usp=sharing)
