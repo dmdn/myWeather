@@ -1,13 +1,13 @@
 # Project Description
-The project is made as an educational one. The application get the JSON data it provides  [OpenWeatherMap.org]( http://openweathermap.org).
+The project is created as an educational one. The application takes the JSON data from [OpenWeatherMap.org]( http://openweathermap.org).
 
 App language: English.
 
-The app displays the current weather and weather forecast by day. In the settings of the app there is a possibility to choose the weather forecast for 1 and up to 7 days. It is also possible to choose a forecast for geolocation and setting a specific city.
+The app displays the current weather and daily weather forecast. It is possible to choose the necessary period in the application settings. It can be from 1 to 7 days. Weather forecost can also be viewed depending on geolocation and chose city. It is possible to install the application on widget.
 
 It is possible to install the application widget.
 
-### Basic skills that were used in the project
+### Basic skills that were used for the project creation
 + Toolbar Menu Android
 + Material Design
   + Sliding Tabs
