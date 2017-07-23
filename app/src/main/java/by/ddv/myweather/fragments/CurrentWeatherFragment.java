@@ -18,6 +18,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -66,6 +69,8 @@ public class CurrentWeatherFragment extends Fragment {
     public CurrentWeatherFragment() {
     }
 
+    private AdView mAdView;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,7 +83,7 @@ public class CurrentWeatherFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_current_weather, container, false);
+        final View view = inflater.inflate(R.layout.fragment_current_weather, container, false);
 
         view.setBackgroundColor(ContextCompat.getColor(getActivity(),R.color.colorBodyItem));
 
@@ -95,6 +100,17 @@ public class CurrentWeatherFragment extends Fragment {
 
         tvProvider = (TextView) view.findViewById(R.id.tvProvider);
 
+
+        // Mobile Ads AdMob (Test banner)
+        //MobileAds.initialize(view.getContext(), "ca-app-pub-8065368927185750~7222625111");
+        mAdView = (AdView) view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)//Causes a device to receive test ads
+                //.addTestDevice("F809CF07739B068B492ABA8E8CED65E0")
+                .build();
+        mAdView.loadAd(adRequest);
+
+
         return view;
     }
 
@@ -107,6 +123,8 @@ public class CurrentWeatherFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
+
+        mAdView.resume();//Restore the visibility of banner
 
         prefManualLocation = preferences.getString(getString(R.string.pref_manual_location), "");
         prefSwitchGeolocation = preferences.getBoolean(getString(R.string.pref_geolocation_enabled), true);
@@ -184,6 +202,21 @@ public class CurrentWeatherFragment extends Fragment {
     public void onStop() {
         super.onStop();
         saveTextJson();
+    }
+
+
+    @Override
+    public void onPause() {
+        mAdView.pause();//Suspension of banner display
+
+        super.onPause();
+    }
+
+    @Override
+    public void onDestroy() {
+        mAdView.destroy();//Destruction of banner
+
+        super.onDestroy();
     }
 
     private void saveTextJson() {
@@ -417,5 +450,4 @@ public class CurrentWeatherFragment extends Fragment {
         }
         return drow;
     }
-
 }

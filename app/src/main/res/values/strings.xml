@@ -19,7 +19,7 @@
     <string name="not_have_internet">You do not have an Internet connection</string>
 
     <string name="provider_geolocation">Provider of geolocation</string>
-
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 
 
 </resources>
