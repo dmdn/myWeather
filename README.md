@@ -20,13 +20,16 @@ It is possible to install the application widget.
   + [GSON]( https://github.com/google/gson)
 + Preference Settings
 + AlertDialog
++ Adding AdMob Banner Ads (only in version 2.0)
 
 ![screenshot](https://cloud.githubusercontent.com/assets/19373990/25392804/580b091c-29e2-11e7-85c0-d168f0af339f.png)
 ![screenshot](https://cloud.githubusercontent.com/assets/19373990/25392806/590e713c-29e2-11e7-9e0e-6aee2ee46373.png)
 ![screenshot settings](https://cloud.githubusercontent.com/assets/19373990/25389456/5c3b6ab2-29d9-11e7-9617-6b831d5d2329.png)
 ![screenshot](https://cloud.githubusercontent.com/assets/19373990/25392805/5813c4f8-29e2-11e7-9554-4ee8485c3a53.png)
+![screenshot](https://user-images.githubusercontent.com/19373990/28501920-4c65cb30-6fef-11e7-866a-0de08fb2f141.png)
 
 ![ic_launcher](https://cloud.githubusercontent.com/assets/19373990/25581596/6e71f0e0-2e91-11e7-85c6-f0280d89470d.png)
-[Download APP in APK](https://drive.google.com/file/d/0B_FuLrEepxSsSUEySWk1RmtpaUk/view?usp=sharing)
++ APP version 1.0 [Download APK](https://drive.google.com/file/d/0B_FuLrEepxSsSUEySWk1RmtpaUk/view?usp=sharing)
++ APP version 2.0 with AdMob Banner Ads [Download APK](https://drive.google.com/file/d/0B_FuLrEepxSsVDJVWVQ1RzlDT1k/view?usp=sharing)
 
-[Screenshots MyWeather APP in PDF](https://drive.google.com/file/d/0B_FuLrEepxSsWVBBMldQR1kwNEk/view?usp=sharing)
+[Screenshots MyWeather APP in PDF](https://drive.google.com/file/d/0B_FuLrEepxSsaWI5T2JQbXJLQmc/view?usp=sharing)
