@@ -29,5 +29,5 @@ It is possible to install the application widget.
 ![screenshot](https://user-images.githubusercontent.com/19373990/28501920-4c65cb30-6fef-11e7-866a-0de08fb2f141.png)
 
 ![ic_launcher](https://cloud.githubusercontent.com/assets/19373990/25581596/6e71f0e0-2e91-11e7-85c6-f0280d89470d.png)
-+ APP version 1.0 (installation file `.apk` can be found in `./storage/my_weather_1.0.apk`)
-+ APP version 2.0 with AdMob Banner Ads (installation file `.apk` can be found in `./storage/my_weather_2.0.apk`)
++ APP version 1.0: installation file `.apk` can be found in `./storage/my_weather_1.0.apk`
++ APP version 2.0 with AdMob Banner Ads: installation file `.apk` can be found in `./storage/my_weather_2.0.apk`
