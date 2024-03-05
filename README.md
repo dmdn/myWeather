@@ -36,4 +36,4 @@ It is possible to install the application widget.
 
 More screenshots can be found in [/storage/MyWeather_screenshots.pdf](storage/MyWeather_screenshots.pdf).
 
-Note: The application was created in 2017, so some functions may not be available now due to changes on the server.
+Note: The application was created in 2017, so some functions may not be available now due to changes on the server
